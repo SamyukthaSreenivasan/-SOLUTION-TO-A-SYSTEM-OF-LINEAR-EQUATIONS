@@ -15,13 +15,21 @@ Using the np.linalg.solve(), we can find the solutions.
 End the program
 ## Program:
 #Program to find the solution for the given linear equations.
+
 #Developed by: Samyuktha.S
+
 #RegisterNumber:22005276
+
 import numpy as np
+
 a=np.array([[5,-3,-10],[2,2,-3],[-3,-1,5]])
+
 b=np.array([-9,4,-1])
+
 res=np.linalg.solve(a,b)
+
 print(res)
+
 ## Output:
 ![output](/add.png)
 ## Result: 
